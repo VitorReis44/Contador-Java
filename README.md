@@ -7,4 +7,25 @@ Este projeto é um exercício prático para aplicar os conceitos de controle de 
 ## Funcionalidades
 
 1. **Entrada de Dados**:
-   - O programa solicita ao
+   - O programa solicita ao usuário que insira dois números inteiros via terminal.
+
+2. **Validação de Parâmetros**:
+   - Se o primeiro número for maior que o segundo, o programa lança uma exceção personalizada (`ParametrosInvalidosException`) com a mensagem: "O segundo parâmetro deve ser maior que o primeiro".
+
+3. **Contagem e Impressão**:
+   - Se a validação for bem-sucedida, o programa calcula a diferença entre os dois números e imprime uma sequência de números incrementados.
+
+---
+
+## Como Executar o Projeto
+
+### Pré-requisitos
+
+- Java Development Kit (JDK) instalado (versão 8 ou superior).
+- Um ambiente de desenvolvimento (IDE) como Eclipse, IntelliJ ou VS Code.
+
+### Passos para Execução
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/DesafioControleFluxo.git
